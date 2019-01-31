@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGCardData", "MTGCardData\MTGCardData.csproj", "{4558738B-165A-49C7-9F0F-00A25E3C4B06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6A8896CD-6F1D-476A-89CB-51402FA124DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{872C4CE1-B28C-4DA9-9223-D32977BE888F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{4558738B-165A-49C7-9F0F-00A25E3C4B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4558738B-165A-49C7-9F0F-00A25E3C4B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4558738B-165A-49C7-9F0F-00A25E3C4B06}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A8896CD-6F1D-476A-89CB-51402FA124DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A8896CD-6F1D-476A-89CB-51402FA124DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A8896CD-6F1D-476A-89CB-51402FA124DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A8896CD-6F1D-476A-89CB-51402FA124DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872C4CE1-B28C-4DA9-9223-D32977BE888F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872C4CE1-B28C-4DA9-9223-D32977BE888F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872C4CE1-B28C-4DA9-9223-D32977BE888F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872C4CE1-B28C-4DA9-9223-D32977BE888F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

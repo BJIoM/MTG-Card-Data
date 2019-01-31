@@ -22,7 +22,7 @@ namespace BJIoM.MTG.CardData {
 		/// </summary>
 		/// <param name="filter">Search filter</param>
 		/// <returns>Matched cards</returns>
-		public Task<IEnumerable<Card>> FindCardAsync(SearchFilter filter) =>
+		public Task<IList<Card>> FindCardAsync(SearchFilter filter) =>
 			Task.Run(() => FindCard(filter));
 
 		/// <summary>
@@ -30,7 +30,7 @@ namespace BJIoM.MTG.CardData {
 		/// </summary>
 		/// <param name="filter">Search filter</param>
 		/// <returns>Matched cards</returns>
-		public IEnumerable<Card> FindCard(SearchFilter filter) {
+		public IList<Card> FindCard(SearchFilter filter) {
 			var result = new List<Card>();
 
 			foreach (var set in filter.SetFilters) {
