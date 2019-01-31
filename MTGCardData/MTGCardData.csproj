@@ -2,6 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>BJIoM.MTG.CardData</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>BJIoM.MTG Card Data</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>BJIoM</Authors>
+    <Company>BJIoM</Company>
+    <Product>BJIoM.MTG Card Data</Product>
+    <Description>Simple wraper over mtgjson.net</Description>
+    <RepositoryUrl>https://github.com/BJIoM/MTG-Card-Data</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SetLoader\" />
+  </ItemGroup>
 
 </Project>

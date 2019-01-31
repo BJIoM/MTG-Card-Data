@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace BJIoM.MTG.PriceChecker.Model.CardsData.Model {
+namespace BJIoM.MTG.CardData.Model {
 	public class ForeignData {
 		[JsonProperty("language")]
 		public string Language { get; set; }

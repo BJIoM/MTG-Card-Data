@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace BJIoM.MTG.PriceChecker.Model.CardsData.Model {
+namespace BJIoM.MTG.CardData.Model {
 	public class Legality {
 		[JsonProperty("1v1")]
 		public string OneVsOne { get; set; }

@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
-
 using Newtonsoft.Json;
 
-namespace BJIoM.MTG.PriceChecker.Model.CardsData.Model {
+namespace BJIoM.MTG.CardData.Model {
 	public class Card {
 		[JsonProperty("artist")]
 		public string Artist { get; set; }
@@ -120,5 +119,7 @@ namespace BJIoM.MTG.PriceChecker.Model.CardsData.Model {
 
 		[JsonProperty("starter")]
 		public bool? Starter { get; set; }
+		
+		public string SetCode { get; set; }
 	}
 }

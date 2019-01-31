@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace BJIoM.MTG.PriceChecker.Model.CardsData.Model {
+namespace BJIoM.MTG.CardData.Model {
 	public class Meta {
 		[JsonProperty("date")]
 		public string Date { get; set; }

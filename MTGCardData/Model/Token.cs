@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace BJIoM.MTG.PriceChecker.Model.CardsData.Model {
+namespace BJIoM.MTG.CardData.Model {
 	public class Token {
 		[JsonProperty("artist")]
 		public string Artist { get; set; }
