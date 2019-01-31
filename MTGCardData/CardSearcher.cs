@@ -44,6 +44,12 @@ namespace BJIoM.MTG.CardData {
 			return result;
 		}
 
+		/// <summary>
+		/// Get set name by set code
+		/// </summary>
+		/// <param name="setColde">Set code</param>
+		public string GetSetName(string setColde) => _cachedSets[setColde].Name;
+
 		private readonly IDictionary<string, Set> _cachedSets;
 		private readonly SetLoader _loader;
 
